@@ -11,7 +11,7 @@ int safefactorialfun(unsigned int x) {
     if (x == 0) {
         return 1;
     }
-    if (x < 0 || x > 17) { //actually as parameter unsigned int less than 0 wont compile, but it is great idea to show mathematical boundaries in the code.
+    if (x < 0 || x > 12) { //actually as parameter unsigned int less than 0 wont compile, but it is great idea to show mathematical boundaries in the code.
         printf("\nPotantial buffer overflow or invalid operation detected.\n");
         return -1;
     }

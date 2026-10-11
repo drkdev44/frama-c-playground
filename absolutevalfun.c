@@ -3,7 +3,7 @@
 
 
 /*
- @ *requires a > INT_MIN;
+ @ requires a > INT_MIN;
  @ ensures a <= 0 ? \result == -a : \result == a;
  @ assigns \nothing;
  */

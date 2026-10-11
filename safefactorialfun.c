@@ -2,7 +2,7 @@
 #include "limits.h"
 
 /*
- @ ensures x < 0 || x > 17 ==> \result == -1;
+ @ ensures x < 0 || x > 12 ==> \result == -1;
  @ requires x <= UINT_MAX && x >= 0;
  @ assigns \nothing;
 */
